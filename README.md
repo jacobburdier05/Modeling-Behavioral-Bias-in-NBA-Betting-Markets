@@ -2,8 +2,6 @@
 
 **Simulation-Based Analysis of Pricing Inefficiency and Behavioral Bias in NBA Sports Betting Markets**
 
-Research paper submitted to the National High School Journal of Economics, May 2026.
-
 ---
 
 ## What This Project Is
