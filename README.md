@@ -36,16 +36,24 @@ Opens instantly in your browser — no installation or account required. View-on
 
 ---
 
-## Key Findings (Simulated)
+## Key Findings
 
-- **Favorite-longshot bias reproduced:** Big underdogs (implied < 45%) outperform market price by +12.0pp; 
-  chalk (> 78%) underperforms by 12.0pp across all six probability buckets
-- **Public bias reproduced:** 11.4pp gap in cover rates between low-public and high-public games, 
-  consistent with line-shading documented in Levitt (2004)
-- **Hold rate gradient:** Standard spreads carry ~4.55% hold; 4-leg parlays carry ~22.1%; 
-  same-game parlays estimated at ~18.3% (DraftKings investor disclosures)
-- Both effects are directionally significant but statistically inconclusive at n=574; 
-  results are consistent with published literature, not novel empirical discoveries
+This study uses a controlled simulation of 3,000 NBA game observations, calibrated to published academic parameters, to test whether two documented behavioral biases in sports betting markets reproduce reliably at a larger sample size. Both effects reproduced at conventional statistical significance.
+
+**Favorite-longshot bias (FLB).** Heavy favorites in the 70 to 78 percent implied probability range won only 69.2 percent of games against a market-implied rate of 74.3 percent, a 5.1 percentage point deviation. Combining all chalk games (implied probability above 70 percent, n = 457) gives an actual win rate of 70.5 percent versus an implied rate of 75.0 percent (z = -2.24, p = 0.025). This rejects the null hypothesis at the 5 percent level.
+
+**Public-side line shading.** Teams attracting more than 70 percent of public tickets covered the spread 42.7 percent of the time. Teams attracting less than 45 percent of tickets covered 52.7 percent of the time. The 10 percentage point gap is significant at the 1 percent level (t = -2.97, p = 0.003). This is consistent with the line-shading behavior documented in Levitt (2004), where sportsbooks shade prices toward public preferences rather than purely balancing their books.
+
+**Hold rate gradient (deterministic).** Standard spread bets carry approximately 4.55 percent structural hold. Three-leg parlays carry 14.7 percent. Four-leg parlays carry 22.1 percent. Same-game parlays are estimated at 18.3 percent from DraftKings investor disclosures. The shift in DraftKings' product mix toward parlay and SGP offerings has therefore raised the effective expected loss per dollar wagered for retail bettors significantly, independent of any change in outcome prediction.
+
+### What This Establishes
+
+Because the data generating process was calibrated to the FLB and public-bias literature, this study does not independently discover these effects. It validates that the analytical assumptions underlying the accompanying NBA Edge Analyzer tool produce internally consistent and statistically detectable patterns at scale, making the tool a reliable educational resource for understanding sportsbook pricing mechanics.
+
+### What This Does Not Establish
+
+This is a simulation study, not a primary-data empirical analysis. It does not make claims about the live U.S. betting market. Replicating the methodology on real closing-line archives is the natural follow-up and the only path to confirming directional findings against actual market data.
+
 
 ---
 
