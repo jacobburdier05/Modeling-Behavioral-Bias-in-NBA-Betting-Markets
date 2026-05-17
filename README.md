@@ -29,7 +29,7 @@ Opens instantly in your browser — no installation or account required. View-on
 |---|---|
 | `nba_betting_analyzer_FIXED.tsx` | Interactive React dashboard: odds converter, EV calculator, NBA fair-odds model, parlay hold analyzer |
 | `nba_betting_analyzer.jsx` | Source code in Javascript |
-| `Fig1 flb 3000` | Figure 1A: Implied vs. simulated win rate by probability bucket Figure 1B: Pricing deviation (simulated minus implied) by bucket |
+| `Fig1 flb 3000` | Figure 1A: Implied vs. simulated win rate by probability bucket. Figure 1B: Pricing deviation (simulated minus implied) by bucket |
 | `Fig2 public 3000` | Figure 2: Home team cover rate by public ticket concentration |
 | `Fig3 hold 3000` | Figure 3: Sportsbook hold rate by bet type |
 
